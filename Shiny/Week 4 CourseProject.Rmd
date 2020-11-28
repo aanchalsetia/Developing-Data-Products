@@ -1,0 +1,40 @@
+---
+title: "ReproPitch"
+author: "Aanchal Setia"
+date: "11/29/2020"
+output:
+  slidy_presentation: 
+    keep_md: yes
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE)
+```
+
+## Diamond Analysis Report
+
+Diamond Data Analysis Report enabled using shiny application.
+
+## Application Overview
+
+- Diamonds Properties can be analyzed using several Parameters.
+- Carat,Price,sample size,color Depth are some of the common parameters.
+- This application allows the user to pick the right parameters for the best Diamond selection.
+
+
+## Link to Application
+
+Click the Below Link for the Application.
+
+https://aanchalsetia.shinyapps.io/shiny/
+
+
+
+## Data Used
+The data used for this application is diamonds data set in-built in R Studio. Containing information about 53940 diamonds with 10 variables.
+
+```{r, echo=TRUE}
+library("ggplot2")
+head(diamonds)
+```
